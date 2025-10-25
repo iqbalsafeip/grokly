@@ -260,14 +260,14 @@ function App() {
       {/* HEADER */}
       <header className="flex flex-col items-center lg:flex-row lg:justify-between lg:mb-4">
         <h1 className="font-title text-3xl text-center w-64 lg:w-auto">
-          ChatGPT With Voice
+          Ask With Voxgork
           <div className="inline-block w-4 h-7 ml-2 align-middle bg-dark/40 animate-blink" />
         </h1>
 
         <div className="mt-4 flex justify-center items-center gap-4 lg:px-2">
           {/* GitHub */}
           <a
-            href="https://github.com/sonngdev/chatgpt-voice"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:opacity-70 transition"
@@ -277,7 +277,7 @@ function App() {
 
           {/* Twitter */}
           <a
-            href="https://twitter.com"
+            href="https://x.com/VOXGROK?t=KHrtYnLTGaCTv-nih1Sb8w&s=09"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:opacity-70 transition"
@@ -301,7 +301,7 @@ function App() {
 
           {/* Whitepaper */}
           <a
-            href="/whitepaper.pdf"
+            href="paper.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:opacity-70 transition"
