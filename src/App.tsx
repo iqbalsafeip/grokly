@@ -233,7 +233,7 @@ function App() {
             'Local server needs to be set up first. Click on the Settings button to see how.';
           setIsTooltipVisible(true);
         } else {
-          response = 'Failed to get the response, please try again.';
+          response = '$GROKLY, the voice of AI is coming soon. Stay tuned on X.';
         }
 
         setMessages((oldMessages) => [
@@ -256,28 +256,21 @@ function App() {
   }
 
   return (
-    <div className="container mx-auto px-8 py-9 flex flex-col h-screen gap-y-4 lg:px-28 lg:py-12 lg:relative">
+    <div className="container mx-auto px-8 py-9 bg-gradient-to-br from-[#a1c4fd] to-[#c2e9fb] text-dark flex flex-col h-screen gap-y-4 lg:px-28 lg:py-12 lg:relative">
       {/* HEADER */}
       <header className="flex flex-col items-center lg:flex-row lg:justify-between lg:mb-4">
         <h1 className="font-title text-3xl text-center w-64 lg:w-auto">
-          Ask With Voxgork
+          GROKLY TALK
           <div className="inline-block w-4 h-7 ml-2 align-middle bg-dark/40 animate-blink" />
         </h1>
 
         <div className="mt-4 flex justify-center items-center gap-4 lg:px-2">
           {/* GitHub */}
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:opacity-70 transition"
-          >
-            <GitHub strokeWidth={1} />
-          </a>
+          
 
           {/* Twitter */}
           <a
-            href="https://x.com/VOXGROK?t=KHrtYnLTGaCTv-nih1Sb8w&s=09"
+            href="https://x.com/groklytalk"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:opacity-70 transition"
@@ -357,9 +350,9 @@ function App() {
         </div>
 
         <div className="flex justify-center items-center gap-x-8 lg:flex-col lg:gap-y-8 lg:absolute lg:top-1/2 lg:right-28 lg:-translate-y-1/2">
-          <Button aria-label="Settings" onClick={() => setIsModalVisible(true)}>
+          {/* <Button aria-label="Settings" onClick={() => setIsModalVisible(true)}>
             <Settings strokeWidth={1} />
-          </Button>
+          </Button> */}
 
           <button
             type="button"
@@ -387,10 +380,10 @@ function App() {
               </div>
             ) : null}
           </button>
-
+{/* 
           <Button aria-label="New conversation" onClick={resetConversation}>
             <FilePlus strokeWidth={1} />
-          </Button>
+          </Button> */}
         </div>
       </div>
 
