@@ -259,6 +259,7 @@ function App() {
     <div className="container mx-auto px-8 py-9 bg-gradient-to-br from-[#a1c4fd] to-[#c2e9fb] text-dark flex flex-col h-screen gap-y-4 lg:px-28 lg:py-12 lg:relative">
       {/* HEADER */}
       <header className="flex flex-col items-center lg:flex-row lg:justify-between lg:mb-4">
+        <img src='/logo.png' width={"120"} height={"120"} />
         <h1 className="font-title text-3xl text-center w-64 lg:w-auto">
           GROKLY TALK
           <div className="inline-block w-4 h-7 ml-2 align-middle bg-dark/40 animate-blink" />
