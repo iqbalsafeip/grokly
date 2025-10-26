@@ -294,7 +294,7 @@ function App() {
 
           {/* Whitepaper */}
           <a
-            href="paper.pdf"
+            href="GROKLY_Whitepaper.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:opacity-70 transition"
