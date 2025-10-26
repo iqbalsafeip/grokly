@@ -280,7 +280,7 @@ function App() {
 
           {/* Dexscreener */}
           <a
-            href="https://pump.fun/coin/4zqYzTbTbqAwiWwoVg8F1CMZiobTkLN455yTbX7fpump"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:opacity-70 transition"
